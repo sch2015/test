@@ -19,6 +19,9 @@ jobs:
         env:
           GITHUB_TOKEN: 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
           OPENAI_API_KEY: 123
+          INPUT_OPENAI_BASE_URL: http://192.168.3.250:7896
+          INPUT_OPENAI_LIGHT_MODEL: deepseek-r1:1.5b
+          INPUT_OPENAI_HEAVY_MODEL: deepseek-r1:1.5b
         with:
           debug: true
           review_comment_lgtm: true
