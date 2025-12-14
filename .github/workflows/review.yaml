@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Review code
-        uses: /coderabbitai/ai-pr-reviewer@main 
+        uses: coderabbitai/ai-pr-reviewer@latest 
         env:
           GITHUB_TOKEN: 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
           OPENAI_API_KEY: 123
