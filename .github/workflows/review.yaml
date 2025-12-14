@@ -16,6 +16,9 @@ jobs:
           fetch-depth: 0
       - name: Review code
         uses: http://10.1.53.188:3001/lhk/ai-pr-reviewer@main 
+        env:
+          GITHUB_TOKEN: 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
+          OPENAI_API_KEY: 123
         with:
           debug: true
           review_comment_lgtm: true
